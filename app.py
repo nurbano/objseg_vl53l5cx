@@ -130,7 +130,7 @@ with st.sidebar:
 
 # Apertura de Dataset
 
-df_in = pd.read_csv("./escenarios/"+option+ ".xyz", delimiter=";",
+df_in = pd.read_csv("./"+option+ ".xyz", delimiter=";",
                     usecols=[0, 1, 2, 4], names=["X", "Y", "Z", "clase"], header=0)
 df_in.Y= -df_in.Y
 X_= np.column_stack([df_in.X, df_in.Y, df_in.Z])
@@ -194,7 +194,7 @@ if option_clustering== 'BIRD':
     cantidad_cluster=n_clusters_
     df_out=pd.DataFrame(data={"cat": labels})
 
-image = Image.open("./escenarios/"+option+ ".jpg")
+image = Image.open("./"+option+ ".jpg")
 
 st.image(image)    
 fig = px.scatter_3d(data_frame=df_in, x="X", y="Y", z="Z", color="clase",
