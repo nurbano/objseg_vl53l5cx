@@ -11,3 +11,5 @@ Siendo X, Y, Z las coordenas cartesianas de la nube de puntos.
 c, corresponde al sensor con el acual fue obtenida la información.
 Y clase, el objeto al cual corresponde. 
 
+Se puede visualizar los datos en la app:
+https://objseg-vl53l5cx.streamlit.app/
