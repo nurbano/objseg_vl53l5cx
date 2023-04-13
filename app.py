@@ -86,9 +86,9 @@ def ransac(point_cloud, max_iterations, distance_ratio_threshold):
 
 # Pantalla Princial
 st.title('Segmentación en dataset segobj_VL53L5CX')
-st.text('Autores:' + "\n" + 'Nicolás Urbano Pintos (Grupo TAMA UTN FRH/DRL CITEDEF)'
-        + "\n" + 'Héctor Alberto Lacomi (Grupo ASE UTN FRH/DRL CITEDEF)'
-        + "\n" + 'Mario Blas Lavorato(Grupo TAMA UTN FRH)')
+# st.text('Autores:' + "\n" + 'Nicolás Urbano Pintos (Grupo TAMA UTN FRH/DRL CITEDEF)'
+#         + "\n" + 'Héctor Alberto Lacomi (Grupo ASE UTN FRH/DRL CITEDEF)'
+#         + "\n" + 'Mario Blas Lavorato(Grupo TAMA UTN FRH)')
 
 st.text('urbano.nicolas@gmail.com')
 
