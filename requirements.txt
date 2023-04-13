@@ -5,6 +5,5 @@ plotly
 matplotlib
 scikit-learn
 Pillow
-math
 numpy
-random
+
