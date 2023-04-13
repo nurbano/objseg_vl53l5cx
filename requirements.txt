@@ -4,9 +4,7 @@ streamlit
 plotly
 matplotlib
 scikit-learn
-laspy
-PIL
+Pillow
 math
 numpy
-plotly
 random
